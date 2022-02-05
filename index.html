@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <textarea></textarea>
+        <button id="run">RUN</button>
+
+        <script>
+            document.getElementById('run').onclick = () => {
+                run(document.querySelector('textarea').value)
+            }
+        </script>
+    </body>
+    <style>
+        body{
+            margin: 0px;
+        }
+        textarea{
+            width: 100vw;
+            height: 90vh;
+        }
+    </style>
+</html>

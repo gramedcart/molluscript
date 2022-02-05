@@ -1,0 +1,25 @@
+{
+  "name": "molluscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^9.0.0",
+    "conf": "^10.1.1",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "mollu": "./mollucli.cmd"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/readline-sync": "^1.4.4"
+  }
+}

@@ -1,0 +1,50 @@
+변수 설정
+몰?루 <varname> <var|number>
+
+출력데이터에 추가
+몰!루 <type> <var>
+
+출력데이터 출력
+몰루
+
+변수 계산
+    변수 덧셈 (+=)
+    몰??루 몰?루 <var> <var|number>
+
+    변수 뺄셈 (-=)
+    몰??루 몰!루 <var> <var|number>
+
+    변수 곱셈 (*=)
+    몰??루 몰루 <var> <var|number>
+
+    변수 나눗셈 (/=)
+    몰??루 몰??루 <var> <var|number>
+
+입력 받기
+몰!?루 <var>
+
+if문
+    equal
+    몰?!루 몰?루 <var> <var|number>
+
+    greater then
+    몰?!루 몰!루 <var> <var|number>
+
+    less then
+    몰?!루 몰루 <var> <var|number>
+
+    equal or greater then
+    몰?!루 몰??루 <var> <var|number>
+
+    equal or less then
+    몰?!루 몰!?루 <var> <var|number>
+
+    if문 종료
+    몰?!루 몰?!루
+    
+goto문
+    위치를 변수에 저장 (기존 변수랑 독립적으로 저장됨)
+    아?루 <var>
+
+    변수에 저장된 위치로 이동
+    아!루 <var>
